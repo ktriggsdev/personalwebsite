@@ -12,7 +12,7 @@ st.title("Portfolio Dashboard")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-  st.button("Projects: 25")
+  st.metric(label="Projects", value="25", delta="0")
   
 with col2:
   st.button("Project 1")
