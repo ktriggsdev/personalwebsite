@@ -13,8 +13,8 @@ with col2:
 with col3:
   st.header("Project 2")
   
-  with col4:
+with col4:
   st.header("Project 3")
   
-  with col5:
+with col5:
   st.header("Project 4")
