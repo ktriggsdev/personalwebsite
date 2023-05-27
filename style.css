@@ -1,11 +1,8 @@
-#projects-25 {
-  background-color: #473BF0;
-}
-
- button {
-   padding: 100px 100px;
-   margin-right: 40px;
-   height: 100px;
-   width: 100px;
-   word-wrap: break-word;
+button {
+  padding: 100px 100px;
+  margin-right: 40px;
+  height: 100px;
+  width: 100px;
+  word-wrap: break-word;
+  background-color: #01BAEF;
 }
