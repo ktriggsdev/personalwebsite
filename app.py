@@ -3,7 +3,7 @@ import pandas as pd
 
 # LINK TO THE CSS FILE
 with open("style.css")as f:
- st.markdown(f”<style>{f.read()}</style>”, unsafe_allow_html = True)
+ st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
 st.title("Portfolio Dashboard")
 col1, col2, col3, col4, col5 = st.columns(5)
