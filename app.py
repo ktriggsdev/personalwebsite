@@ -23,55 +23,55 @@ with analytics3:
   st.metric(label="Uncompleted", value="1", delta="1")
   
 with col1:
-  st.button("Business Card Application ✅")
+  st.button("Business Card Application             ✅")
 
 with col2:
-  st.button("Birthday GIFt Application ✅")
+  st.button("Birthday GIFt Application             ✅")
   
 with col3:
-  st.button("My Personal Website ✅")
+  st.button("My Personal Website                   ✅")
   
 with col4:
-  st.button("Formula One Lap Tracker ✅")
+  st.button("Formula One Lap Tracker               ✅")
 
 with col5:
-  st.button("Password Generator App ✅")
+  st.button("Password Generator App                ✅")
   
 with col6:
-  st.button("Metric Imperial Converter ✅")
+  st.button("Metric Imperial Converter             ✅")
   
 with col7:
-  st.button("Co-Working Space Site ✅")
+  st.button("Co-Working Space Site                 ✅")
   
 with col8:
-  st.button("Random Dice Generator ✅")
+  st.button("Random Dice Generator                 ✅")
   
 with col9:
-  st.button("Finance Calculators ✅")
+  st.button("Finance Calculators                   ✅")
   
 with col10:
-  st.button("Chord Progression Generator ✅")
+  st.button("Chord Progression Generator           ✅")
 
 with col11:
   st.button("Carbonvio Carbon Footprint Calculator ✅")
   
 with col12:
-  st.button("Number Guessing Game ✅")
+  st.button("Number Guessing Game                  ✅")
   
 with col13:
-  st.button("Fibonacci Sequence App ✅")
+  st.button("Fibonacci Sequence App                ✅")
   
 with col14:
-  st.button("Prime Factorial App ✅")
+  st.button("Prime Factorial App                   ✅")
   
 with col15:
-  st.button("Hashtag Generator App ✅")
+  st.button("Hashtag Generator App                 ✅")
   
 with col16:
-  st.button("Task Manager Application ✅")
+  st.button("Task Manager Application              ✅")
   
 with col17:
-  st.button("Color Generator Application ✅")
+  st.button("Color Generator Application           ✅")
   
 with col18:
-  st.button("Dashboard Application ❌")
+  st.button("Dashboard Application                 ❌")
