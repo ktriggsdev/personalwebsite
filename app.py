@@ -16,9 +16,9 @@ col11, col12, col13, col14, col15 = st.columns(5)
 col16, col17, col18, col19, col20 = st.columns(5)
 
 with analytics1:
-  st.metric(label="Started", value="25", delta="1")
+  st.metric(label="Started", value="18", delta="1")
 with analytics2:
-  st.metric(label="Completed", value="24", delta="24")
+  st.metric(label="Completed", value="17", delta="0")
 with analytics3:
   st.metric(label="Uncompleted", value="1", delta="1")
   
@@ -50,16 +50,16 @@ with col9:
   st.button("Finance Calculators ✅")
   
 with col10:
-  st.button("chord progression Generator ✅")
+  st.button("Chord Progression Generator ✅")
 
 with col11:
   st.button("Carbonvio Carbon Footprint Calculator ✅")
   
 with col12:
-  st.button("Number guessing game ✅")
+  st.button("Number Guessing Game ✅")
   
 with col13:
-  st.button("Fibonacci sequence App ✅")
+  st.button("Fibonacci Sequence App ✅")
   
 with col14:
   st.button("Prime Factorial App ✅")
