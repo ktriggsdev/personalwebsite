@@ -9,7 +9,7 @@ with open("style.css") as f:
 
 st.title("Project Management Dashboard")
 
-analytics1, analytics2, analytics3 = st.columns(3)
+analytics1, analytics2, analytics3, analytics4 = st.columns(4)
 col1, col2, col3, col4, col5 = st.columns(5)
 col6, col7, col8, col9, col10 = st.columns(5)
 col11, col12, col13, col14, col15 = st.columns(5)
@@ -21,6 +21,8 @@ with analytics2:
   st.metric(label="Completed", value="17", delta="0")
 with analytics3:
   st.metric(label="Uncompleted", value="1", delta="1")
+with analytics4:
+  st.bar_chart(data=analytics1['value'], x=None, y=None, width=0, height=0, use_container_width=True)
   
 with col1:
   st.button("Business Card Application             ✅")
