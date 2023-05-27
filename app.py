@@ -65,10 +65,10 @@ with col14:
   st.button("Prime Factorial App")
   
 with col15:
-  st.button("hashtag generator App")
+  st.button("Hashtag Generator App")
   
 with col16:
   st.button("Task Manager Application")
   
 with col17:
-  st.button("color generator Application")
+  st.button("Color Generator Application")
