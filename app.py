@@ -23,19 +23,19 @@ with analytics3:
   st.metric(label="Uncompleted", value="1", delta="1")
   
 with col1:
-  st.button("Business Card")
+  st.button("Business Card Application")
 
 with col2:
-  st.button("Birthday GIFt")
+  st.button("Birthday GIFt Application")
   
 with col3:
-  st.button("Personal Site")
+  st.button("My Personal Website ")
   
 with col4:
   st.button("Formula One Lap Tracker")
 
 with col5:
-  st.button("Password Generator")
+  st.button("Password Generator App")
   
 with col6:
   st.button("Metric Imperial Converter")
@@ -44,31 +44,31 @@ with col7:
   st.button("Co-Working Space Site")
   
 with col8:
-  st.button("Random Dice")
+  st.button("Random Dice Generator")
   
 with col9:
   st.button("Finance Calculators")
   
 with col10:
-  st.button("chord progression")
+  st.button("chord progression Generator")
 
 with col11:
-  st.button("Carbonvio")
+  st.button("Carbonvio Carbon Footprint Calculator")
   
 with col12:
   st.button("Number guessing game")
   
 with col13:
-  st.button("Fibonacci sequence")
+  st.button("Fibonacci sequence App")
   
 with col14:
-  st.button("Prime Factorial")
+  st.button("Prime Factorial App")
   
 with col15:
-  st.button("hashtag generator")
+  st.button("hashtag generator App")
   
 with col16:
-  st.button("Task Manager")
+  st.button("Task Manager Application")
   
 with col17:
-  st.button("color gen app")
+  st.button("color generator Application")
