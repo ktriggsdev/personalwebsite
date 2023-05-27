@@ -21,8 +21,6 @@ with analytics2:
   st.metric(label="Completed", value="17", delta="0")
 with analytics3:
   st.metric(label="Uncompleted", value="1", delta="1")
-with analytics4:
-  st.bar_chart(data=analytics1['value'], x=None, y=None, width=0, height=0, use_container_width=True)
   
 with col1:
   st.button("Business Card Application             ✅")
